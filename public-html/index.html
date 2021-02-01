@@ -2,86 +2,93 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Toby Dustin</title>
-  <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body {
-  font-family: 'Roboto', sans-serif;
-}
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Toby Dustin</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+		body {
+			font-family: 'Roboto', sans-serif;
+		}
 
-.container{
-  width:100%;
-}
-.outer{
-  padding:10px;
-  width:500px;
-  margin: 0 auto;
-}
-@media (max-width:500px){
-  .outer{
-    width:100%;
-  }
-  .gameBadge{
-    width:100%;
-  }
-  td{
-    width:100%;
-  }
-  
-  
-}
-table{
-  width:100%;
-}
-td{
-  width:250px;
-  height:130px;
-  text-align:center;
-}
-.gameBadge{
-  width:250px;
-  height:130px;
-  background-color:#A7ADF0;
-  border-radius:25px;
-  box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
-}
-.gameBadgeText {
-  display:inline-block;
-  width:200px;
-  padding-top:30px;
-  text-align:right;
-  font-size:24pt;
-  font-weight:bolder;
-  color:white;
-}
-.priceIsWrong{
-  background-image: linear-gradient(#FC5C7D, #6A82FB);
-}
-.commonPhrase{
-  background-image: linear-gradient(#e1eec3, #f05053);
-}
+		.container {
+			width: 100%;
+		}
 
-  </style>
+		.outer {
+			padding: 10px;
+			width: 500px;
+			margin: 0 auto;
+		}
+
+		@media (max-width:500px) {
+			.outer {
+				width: 100%;
+			}
+			.gameBadge {
+				width: 100%;
+			}
+			td {
+				width: 100%;
+			}
+
+
+		}
+
+		table {
+			width: 100%;
+		}
+
+		td {
+			width: 250px;
+			height: 130px;
+			text-align: center;
+		}
+
+		.gameBadge {
+			width: 250px;
+			height: 130px;
+			background-color: #A7ADF0;
+			border-radius: 25px;
+			box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+		}
+
+		.gameBadgeText {
+			display: inline-block;
+			width: 200px;
+			padding-top: 30px;
+			text-align: right;
+			font-size: 24pt;
+			font-weight: bolder;
+			color: white;
+		}
+
+		.priceIsWrong {
+			background-image: linear-gradient(#FC5C7D, #6A82FB);
+		}
+
+		.commonPhrase {
+			background-image: linear-gradient(#e1eec3, #f05053);
+		}
+	</style>
 </head>
 
 <body>
-  <div class="container">
-  <div class="outer">
-    <h1>Games</h1>
-    <table>
-      <tr>
-        <td>
-          <a href="http://tobydustin.com:3110">
-            <div class="gameBadge priceIsWrong">
-              <span class="gameBadgeText">
+	<div class="container">
+		<div class="outer">
+			<h1>Games</h1>
+			<table>
+				<tr>
+					<td>
+						<a href="http://tobydustin.com:3110">
+							<div class="gameBadge priceIsWrong">
+								<span class="gameBadgeText">
                 The Price Is Wrong!
               </span>
             </div>
           </a>
         </td>
-        <!-- <td>
+        <td>
           <a href="http://google.com">
             <div class="gameBadge commonPhrase">
               <span class="gameBadgeText">
@@ -89,7 +96,7 @@ td{
               </span>
             </div>
           </a>
-        </td> -->
+        </td>
       </tr>
     </table>
   </div>
